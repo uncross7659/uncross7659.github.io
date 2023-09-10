@@ -47,6 +47,6 @@ body{
 .banner{
     width: 1200px;
     margin:0 auto;
-    background: url(../img/banner.webp) no-repeat center center;
+    background: url(../img/preview.jpg) no-repeat center center;
     height: 312px;
 }
