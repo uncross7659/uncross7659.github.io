@@ -1,52 +1,83 @@
-
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-ul{
+
+ul {
     list-style: none;
 }
-a{
+
+a {
     color: #333;
     text-decoration: none;
 }
-body{
+
+body {
     background: #fff;
 }
-.header{
+
+.header {
     height: 80px;
-    width:100%;
+    width: 100%;
     background: #fff;
     border-bottom: 1px solid #ddd;
 }
-.nav-box{
+
+.nav-box {
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     height: 40px;
     padding-top: 20px;
     align-items: center;
-   justify-content: space-between;
-   font-size: 30px;
-   color: #333;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #333;
 }
-.nav-box .nav{
+
+.banner {
+    width: 855px;
+    margin: 0 auto;
+    background: url(../img/preview.jpg) no-repeat center center;
+    height: 312px;
+    text-align: center;
+    line-height: 312px;
+    color: #fff;
+    text-shadow: 0 0 10 rgba(0,0,0,0.3);
+}
+.introduce{
+    width: 1200px;
+    margin:0 auto;
+    padding: 40px 0;
     display: flex;
-    font-size: 16px;
+}
+.introduce-tit{
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.introduce-main{
+    display: flex;
+}
+.introduce-main .l{
+    margin-right: 50px;
+}
+.introduce-main .r{
+    line-height: 60px;
+    font-size: 20px;
     color: #555;
 }
-.nav-box .nav li{
-    padding-left: 40px;
+.edu-box{
+    display: flex;
 }
-.nav-box .nav a.on
-.nav-box .nav a:hover{
-    color: #000;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #333;
+.edu-box .r{
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 20px;
 }
-.banner{
-    width: 855px;
-    margin:0 auto;
-    background: url(../img/preview.jpg) no-repeat center center;
-    height: 855px;
+.phone{
+    margin-left: 50px;
+    line-height: 30px;
 }
