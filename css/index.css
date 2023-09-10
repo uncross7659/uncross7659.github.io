@@ -45,8 +45,8 @@ body{
     border-bottom: 2px solid #333;
 }
 .banner{
-    width: 1260px;
+    width: 855px;
     margin:0 auto;
-    background: url(../img/R-C.jpg) no-repeat center center;
-    height: 690px;
+    background: url(../img/preview.jpg) no-repeat center center;
+    height: 855px;
 }
